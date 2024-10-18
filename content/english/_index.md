@@ -1,8 +1,8 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Bennell IT - Providing expert IT solutions for businesses"
-  image : "images/banner-it-services.webp"
+  title : "Bennell IT - Providing expert IT solutions for your IT needs"
+  image : "images/banner-art.svg"
   content : "Bennell IT provides exceptional IT services, from computer repairs to web and email hosting and GPS tracking for your vehicles."
   button:
     enable : true
@@ -19,13 +19,13 @@ feature:
   title : "Comprehensive IT Solutions for Businesses"
   content : "Bennell IT helps businesses run smoothly by offering expert IT services."
   button:
-    enable : true
+    enable : false
     label : "Learn More"
     link : "services/"
   feature_item:
   - name : "Computer Repairs"
     icon : "fas fa-tools"
-    content : "Quick and reliable repairs to keep your business running."
+    content : "Quick and reliable repairs to keep your Computer running."
 
   - name : "GPS Tracking"
     icon : "fas fa-map-marker-alt"
@@ -41,7 +41,7 @@ feature:
 
 ################### Testimonials ########################
 testimonials:
-  enable: true
+  enable: false
   title: "Our Clients Trust Us"
   content: "Here’s what our clients say about our IT services."
   testimonials_quotes:

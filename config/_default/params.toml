@@ -10,7 +10,7 @@ logo_width = "180px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Bigspring"
+logo_text = "Bennell IT"
 # theme-mode
 theme_switcher = true
 theme_default = "system" # available options [light/dark/system]
@@ -38,7 +38,7 @@ preloader = "" # use jpg, png, svg or gif format. example - "images/preloader.gi
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "Get a Demo"
 link = "get-demo/"
 
@@ -51,9 +51,9 @@ crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code wi
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Hugo", "Themefisher", "Gethugothemes"]
-description = "This is meta description"
-author = "Gethugothemes"
+keywords = ["IT Services", "Computer Repairs", "Web Hosting", "Email Hosting", "GPS Tracking", "Server Management", "Bennell IT"]
+description = "Bennell IT provides expert IT solutions, including computer repairs, web and email hosting, GPS tracking, and server management for businesses."
+author = "Bennell IT"
 image = "images/logo.png"                           # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
@@ -100,26 +100,6 @@ button = "I Accept"
 
 ############################# social site ########################
 [[social]]
-title = "facebook"
-icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
-
-[[social]]
-title = "twitter"
-icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
-
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
-
-[[social]]
-title = "github"
-icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
-
-[[social]]
-title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
+title = "email"
+icon = "fa-solid fa-envelope" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "mailto:stewart@bennellit.com.au"
