@@ -1,117 +1,97 @@
 ---
-title: "Website Hosting Plans"
+title: "Email Hosting Plans"
 subtitle: ""
 # meta description
-description: "Bennell IT offers competitive web hosting plans suitable for various needs. Check out our pricing below."
+description: "Bennell IT offers competitive email hosting Email Plans suitable for various needs. Check out our pricing below."
 draft: false
 layout: "pricing"
 
 # pricing item
 pricing_list:
-  - name: "500MB Plan"
+  - name: "500MB Email Plan"
     currency: "$"
-    price: "150"
+    price: "33"
     price_per: "Yearly"
-    info: "Best for Small Individuals"
+    info: ""
     recommended: false
     services:
-      - "500MB Space"
-      - "100% CPU"
-      - "1GB RAM"
+      - "500MB Cloud Storage Space"
+      - "2000 Emails per Hour "
     button:
       enable: true
       label: "Get started"
       link: "contact/"
 
-  - name: "1GB Plan"
+  - name: "1GB Email Plan"
     currency: "$"
-    price: "153"
+    price: "48"
     price_per: "Yearly"
-    info: "Ideal for Growing Users"
+    info: ""
     recommended: false
     services:
-      - "1GB Space"
-      - "100% CPU"
-      - "1GB RAM"
+      - "1GB Cloud Storage Space"
+      - "2000 Emails per Hour "
     button:
       enable: true
       label: "Get started"
       link: "contact/"
 
-  - name: "2GB Plan"
+  - name: "5GB Email Plan"
     currency: "$"
-    price: "159"
+    price: "48"
     price_per: "Yearly"
-    info: "For Medium-Sized Websites"
-    recommended: true
+    info: ""
+    recommended: false
     services:
-      - "2GB Space"
-      - "100% CPU"
-      - "1GB RAM"
+      - "5GB Cloud Storage Space"
+      - "2000 Emails per Hour "
     button:
       enable: true
       label: "Get started"
       link: "contact/"
 
-  - name: "5GB Plan"
+  - name: "10GB Email Plan"
     currency: "$"
-    price: "201"
+    price: "60"
     price_per: "Yearly"
-    info: "Perfect for High-Traffic Websites"
+    info: ""
     recommended: false
     services:
-      - "5GB Space"
-      - "200% CPU"
-      - "2GB RAM"
+      - "10GB Cloud Storage Space"
+      - "2000 Emails per Hour "
     button:
       enable: true
       label: "Get started"
       link: "contact/"
 
-  - name: "10GB Plan"
+  - name: "30GB Email Plan"
     currency: "$"
-    price: "231"
+    price: "72"
     price_per: "Yearly"
-    info: "Best for Large Businesses"
+    info: ""
     recommended: false
     services:
-      - "10GB Space"
-      - "200% CPU"
-      - "2GB RAM"
+      - "30GB Cloud Storage Space"
+      - "2000 Emails per Hour "
     button:
       enable: true
       label: "Get started"
       link: "contact/"
 
-  - name: "15GB Plan"
+  - name: "50GB Email Plan"
     currency: "$"
-    price: "297"
+    price: "96"
     price_per: "Yearly"
-    info: "For Enterprises with High Demands"
+    info: ""
     recommended: false
     services:
-      - "15GB Space"
-      - "300% CPU"
-      - "4GB RAM"
+      - "50GB Cloud Storage Space"
+      - "2000 Emails per Hour "
     button:
       enable: true
       label: "Get started"
       link: "contact/"
 
-  - name: "25GB Plan"
-    currency: "$"
-    price: "381"
-    price_per: "Yearly"
-    info: "For Large-Scale Projects"
-    recommended: false
-    services:
-      - "25GB Space"
-      - "300% CPU"
-      - "6GB RAM"
-    button:
-      enable: true
-      label: "Get started"
-      link: "contact/"
 
 # features_box
 # features_box
@@ -122,61 +102,37 @@ features_box:
     title: "Local Support"
     content: "You can contact our Australian technical support team by email or phone."
 
-  - icon: "fas fa-lock"
-    title: "FREE SSL Certificates"
-    content: "Secure the connection to your website, email, and FTP using free SSL certificates issued by Comodo and automatically installed by cPanel."
+  - icon: "fas fa-server"
+    title: "Your Data Stored Locally"
+    content: "As a 100% Australian owned and operated company, we guarantee that your email data will only be stored on servers located in Australia.."
 
-  - icon: "fas fa-check-circle"
+  - icon: "fas fa-chart-bar"
     title: "99.9% Uptime Guarantee"
-    content: "We guarantee high availability for your website backed by a written service level agreement."
-
-  - icon: "fas fa-rocket"
-    title: "Application Caching"
-    content: "Our hosting environment is optimized for WordPress and Magento with in-built caching."
-
-  - icon: "fas fa-cloud-upload-alt"
-    title: "Hourly Backups"
-    content: "Your data will be backed up by Acronis Cloud Backup and will be available to restore at any time."
+    content: "We ensure your email service is available when you need it, with a 99.9% uptime guarantee."
 
   - icon: "fas fa-envelope-open-text"
-    title: "Outbound Spam Filtering"
-    content: "SpamExperts outbound spam and virus filtering helps to prevent email server blacklisting."
+    title: "SpamExperts Filtering"
+    content: "All email in and out of our hosted email platform passes through our fully redundant cloud scanning system, powered by SpamExperts.."
 
   - icon: "fas fa-shield-alt"
-    title: "Fortinet Hardware Firewall"
-    content: "Continuous protection that inspects every packet before it reaches your hosting server."
+    title: "Secure POP3/IMAP/SMTP"
+    content: "We offer secure, encrypted access to POP3, IMAP and SMTP to ensure the content of your email messages are kept as secure as possible.."
 
-  - icon: "fas fa-infinity"
-    title: "Unlimited Bandwidth"
-    content: "Enjoy unlimited bandwidth for seamless website performance."
+  - icon: "fas fa-users"
+    title: "CalDAV Calendars"
+    content: "Access your calendar from a mobile device, keep track of your appointments or share your calendar with other applications that support CalDAV.."
 
-  - icon: "fas fa-database"
-    title: "Unlimited MariaDB Databases"
-    content: "Create as many databases as your projects require with no additional costs."
-
-  - icon: "fas fa-plus-square"
-    title: "Unlimited Addon Domains"
-    content: "Host multiple websites under one account without any restrictions."
-
-  - icon: "fas fa-sitemap"
-    title: "Unlimited Subdomains"
-    content: "Create unlimited subdomains to organize your web projects effectively."
+  - icon: "fas fa-sync"
+    title: "Email Synchronization"
+    content: "Seamlessly synchronize your emails across all your devices using IMAP and POP3."
+    
+  - icon: "fas fa-tachometer-alt"
+    title: "Optimized Performance"
+    content: "Our email hosting environment is optimized for fast delivery and retrieval of messages."
 
   - icon: "fas fa-paper-plane"
-    title: "500 Emails Per Hour"
-    content: "Send up to 500 emails per hour to stay connected with your clients."
-
-  - icon: "fas fa-user-tie"
-    title: "Unlimited Email Accounts"
-    content: "Create unlimited email accounts to manage your business communications."
-
-  - icon: "fas fa-tachometer-alt"
-    title: "4,000KB/s Disk I/O Speed"
-    content: "Experience fast data processing with our high disk I/O speeds."
-
-  - icon: "fas fa-cogs"
-    title: "300,000 Inode Limit"
-    content: "Manage up to 300,000 inodes to support your hosting needs."
+    title: "2000  Emails Per Hour"
+    content: "Send up to 2000  emails per hour to stay connected with clients and team members."
 
 
 # faq
@@ -188,9 +144,9 @@ faq:
 # call_to_action
 call_to_action:
   enable : true
-  title : "Need a larger plan?"
+  title : "Need a larger Email Plan?"
   image : "images/vector.svg"
-  content: "At Bennell IT, we offer secure and scalable web hosting solutions designed to meet your business needs. Experience fast loading times, 24/7 support, and hassle-free management. Contact us to find the perfect plan for your business."
+  content: "At Bennell IT, we offer secure and scalable web hosting solutions designed to meet your business needs. Experience fast loading times, 24/7 support, and hassle-free management. Contact us to find the perfect Email Plan for your business."
   button:
     enable : true
     label : "Contact Us"

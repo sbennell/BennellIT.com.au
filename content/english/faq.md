@@ -17,6 +17,6 @@ faq_list:
   content: 'The setup process can take up to 48 hr. most accounts are setup within 24 hrs as this a manual process. All account must be paid in full before account can be setup.'
 
 - title: "Why only 500 Email per hour"
-  content: 'All web hosting plans have the ability to send up to 500 emails per hour without any issues. If you need to send more emails, we recommend moving your email service to a Email Hosting Plans. that is able to send 2000 emails per hour per email account..'
+  content: 'All web hosting plans have the ability to send up to 500 emails per hour without any issues. If you need to send more emails, we recommend moving your email service to a Email Hosting Plans. that is able to send 2000 emails per hour per email account.'
 
 ---
