@@ -94,6 +94,11 @@ url = "/terms-conditions"
 weight = 24
 
 [[main]]
+name = "Downloads"
+url = "/downloads"
+weight = 28
+
+[[main]]
 name = "Contact"
 url = "/contact"
 weight = 30
