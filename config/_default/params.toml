@@ -17,24 +17,24 @@ theme_default = "system" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
-contact_form_action = "#!" # contact form works with [https://airform.io/] or [https://formspree.io]
+contact_form_action = "https://airform.io/stewart@bennellit.com.au" # contact form works with [https://airform.io/] or [https://formspree.io]
 # demo form action
 demo_form_action = "#!" # demo form works with [https://airform.io/] or [https://formspree.io]
 # career form action
 career_form_action = "#"
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
-# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
 theme_copyright = true
-copyright = "Copyright by your company"
+copyright = "Copyright by Bennell IT"
 
 # preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
 enable = true
-preloader = "" # use jpg, png, svg or gif format. example - "images/preloader.gif"
+preloader = "" # use jpg, png, svg, or gif format. example - "images/preloader.gif"
 
 # Navigation button
 [navigation_button]
@@ -47,21 +47,20 @@ link = "get-demo/"
 [crisp_chat]
 enable = false
 crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code with yours
-# Check this video tutorial to get your crisp website ID - https://www.youtube.com/watch?v=nW5UX6iVdFc
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["IT Services", "Computer Repairs", "Web Hosting", "Email Hosting", "GPS Tracking", "Server Management", "Bennell IT"]
 description = "Bennell IT provides expert IT solutions, including computer repairs, web and email hosting, GPS tracking, and server management for businesses."
 author = "Bennell IT"
-image = "images/logo.png"                           # this image will be used as fallback if a page has no image of its own
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
 # matomo tracking module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/matomo-analytics
 [matomo]
 enable = false
-url = ""       # your matomo url
-id = ""        # your matomo id
+url = "" # your matomo URL
+id = ""  # your matomo ID
 
 # baidu analytics: see https://tongji.baidu.com/
 # baidu analytics module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/baidu-analytics
@@ -73,7 +72,7 @@ analytics_id = "" # Your ID
 # plausible analytics module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/plausible-analytics
 [plausible]
 enable = false
-domain = ""    # yourdomain.com
+domain = "" # yourdomain.com
 
 # counter analytics: see https://counter.dev/setup.html
 # counter analytics module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/counter-analytics
