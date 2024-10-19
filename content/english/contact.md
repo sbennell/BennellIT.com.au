@@ -2,15 +2,12 @@
 title: "Contact Us"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "Get in touch with Bennell IT for expert IT services, including computer repairs, web hosting, email hosting, and GPS tracking."
 draft: false
 layout: "contact"
 ---
 
-
 #### Why you should contact us!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+At Bennell IT, we provide expert IT solutions tailored to your needs. Reach out to us for reliable computer repairs, web hosting, email hosting, GPS tracking, and more.
 
-* **Phone: +88 125 256 452** 
-* **Mail: info@bigspring.com**
-* **Address: 360 Main rd, Rio, Brazil**
+* **Mail: stewart@bennellit.com.au**
