@@ -52,11 +52,19 @@ weight = 5
 
 [[main]]
 parent = "Services"
+name = "Microsoft 365"
+pre = "<i class='dropdown-icon fas fa-map-marker-alt'></i>"
+post = "<small class='dropdown-subtitle'>Track your vehicles and assets in real-time with advanced GPS solutions.</small>"
+url = "/hosting/Microsoft-365"
+weight = 6
+
+[[main]]
+parent = "Services"
 name = "GPS Tracking"
 pre = "<i class='dropdown-icon fas fa-map-marker-alt'></i>"
 post = "<small class='dropdown-subtitle'>Track your vehicles and assets in real-time with advanced GPS solutions.</small>"
 url = "/services/gps-tracking"
-weight = 6
+weight = 7
 
 [[main]]
 weight = 15
