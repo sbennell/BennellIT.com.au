@@ -39,7 +39,7 @@ parent = "Services"
 name = "Web Hosting"
 pre = "<i class='dropdown-icon fas fa-globe'></i>"
 post = "<small class='dropdown-subtitle'>Secure web hosting for your business.</small>"
-url = "/services/web-hosting"
+url = "/hosting/web-hosting"
 weight = 4
 
 [[main]]
@@ -47,7 +47,7 @@ parent = "Services"
 name = "Email Hosting"
 pre = "<i class='dropdown-icon fas fa-envelope'></i>"
 post = "<small class='dropdown-subtitle'>Secure email hosting for your business.</small>"
-url = "/services/email-hosting"
+url = "/hosting/email-hosting"
 weight = 5
 
 [[main]]
@@ -62,12 +62,6 @@ weight = 6
 weight = 15
 name = "Pages"
 hasChildren = true
-
-[[main]]
-parent = "Pages"
-name = "Pricing"
-url = "/pricing"
-weight = 1
 
 [[main]]
 parent = "Pages"
