@@ -1,13 +1,15 @@
 ---
+date: "2024-10-20"
+draft: false
 title: "Email Hosting Plans"
-subtitle: ""
+#subtitle: "Email Hosting Plans"
 # meta description
 description: "Bennell IT offers competitive email hosting Email Plans suitable for various needs. Check out our pricing below."
-draft: false
-layout: "pricing"
 
 # pricing item
-pricing_list:
+pricing:
+  enable: true
+  pricing_list_item:
   - name: "500MB Email Plan"
     currency: "$"
     price: "33"
@@ -93,7 +95,6 @@ pricing_list:
       link: "contact/"
 
 
-# features_box
 # features_box
 features_box:
   enable: true

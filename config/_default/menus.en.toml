@@ -39,7 +39,7 @@ parent = "Services"
 name = "Web Hosting"
 pre = "<i class='dropdown-icon fas fa-globe'></i>"
 post = "<small class='dropdown-subtitle'>Secure web hosting for your business.</small>"
-url = "/hosting/web-hosting"
+url = "/services/web-hosting"
 weight = 4
 
 [[main]]
@@ -47,7 +47,7 @@ parent = "Services"
 name = "Email Hosting"
 pre = "<i class='dropdown-icon fas fa-envelope'></i>"
 post = "<small class='dropdown-subtitle'>Secure email hosting for your business.</small>"
-url = "/hosting/email-hosting"
+url = "/services/email-hosting"
 weight = 5
 
 [[main]]
@@ -55,7 +55,7 @@ parent = "Services"
 name = "Microsoft 365"
 pre = "<i class='dropdown-icon fas fa-map-marker-alt'></i>"
 post = "<small class='dropdown-subtitle'>Track your vehicles and assets in real-time with advanced GPS solutions.</small>"
-url = "/hosting/Microsoft-365"
+url = "/services/Microsoft-365"
 weight = 6
 
 [[main]]
@@ -137,6 +137,11 @@ weight = 2
 name = "Gps Tracking"
 url = "/services/network-management"
 weight = 3
+
+[[footer_middle]]
+name = "Microsoft 365"
+url = "/services/microsoft-365"
+weight = 4
 
 # footer menu right
 

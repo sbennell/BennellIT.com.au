@@ -7,7 +7,9 @@ draft: false
 layout: "pricing"
 
 # pricing item
-pricing_list:
+pricing:
+  enable: true
+  pricing_list_item:
   - name: "500MB Plan"
     currency: "$"
     price: "150"

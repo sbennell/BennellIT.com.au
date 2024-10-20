@@ -6,7 +6,7 @@ contentDir = "content/english"
 weight = 1
 [en.params]
 ########### footer content ##########
-footer_menu_left = "Company"
-footer_menu_middle = "Products"
+footer_menu_left = "Services"
+footer_menu_middle = "Services"
 footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet."
+footer_content = "Bennell IT provides exceptional IT services, from computer repairs to web and email hosting and GPS tracking for your vehicles."

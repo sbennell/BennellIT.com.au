@@ -7,7 +7,9 @@ draft: false
 layout: "pricing"
 
 # pricing item
-pricing_list:
+pricing:
+  enable: true
+  pricing_list_item:
   - name: "Microsoft 365\n\nBusiness Basic"
     currency: "$"
     price: "10.00"

@@ -2,35 +2,37 @@
 
 {{ partial "page-header.html" . }}
 
+{{ if .Params.pricing.enable }}
 <section class="section my-0 my-lg-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <div class="row gy-5 align-items-lg-center justify-content-center">
-          {{ range $i, $e:= .Params.pricing_list}}
+          {{ range $index, $item := .Params.pricing.pricing_list_item }} <!-- Use $index and $item -->
           <div class="col-lg-4 col-md-6 px-4 px-lg-0">
-            <div class="card shadow bg-white {{if .recommended}}recommended{{end}} {{if gt $i 2}}mt-lg-5{{end}}">
+            <div class="card shadow bg-white {{ if $item.recommended }}recommended{{ end }} {{ if gt $index 2 }}mt-lg-5{{ end }}">
               <div class="card-body text-center py-5">
-                <h3 class="mb-4 h4">{{ .name | markdownify }}</h3>
-                <span class="lead">{{.currency}}</span><span class="h3">{{ .price }}</span> <span>/{{ .price_per }}</span>
-                <p class="lead mt-4">{{ .info | markdownify }}</p>
+                <h3 class="mb-4 h4">{{ $item.name | markdownify }}</h3>
+                <span class="lead">{{ $item.currency }}</span><span class="h3">{{ $item.price }}</span> <span>/{{ $item.price_per }}</span>
+                <p class="lead mt-4">{{ $item.info | markdownify }}</p>
                 <ul class="list-unstyled mb-5">
-                  {{ range .services }}
+                  {{ range $item.services }}
                   <li>{{ . | markdownify }}</li>
                   {{ end }}
                 </ul>
-                {{ if .button.enable }}
-                <a href="{{ .button.link | relLangURL }}" title="{{ .button.label }}" class="btn {{if .recommended}}btn-primary{{else}}btn-outline-primary{{end}}">{{ .button.label }}</a>
+                {{ if $item.button.enable }}
+                <a href="{{ $item.button.link | relLangURL }}" title="{{ $item.button.label }}" class="btn {{ if $item.recommended }}btn-primary{{ else }}btn-outline-primary{{ end }}">{{ $item.button.label }}</a>
                 {{ end }}
               </div>
             </div>
           </div>
-          {{end}}
+          {{ end }}
         </div>
       </div>
     </div>
   </div>
 </section>
+{{ end }}
 
 {{if .Params.features_box.enable}}
 {{with .Params.features_box}}
