@@ -155,7 +155,7 @@ weight = 2
 
 [[footer_middle]]
 name = "Services Stutus"
-url = "/"
+url = "https://status.bennellit.com.au/status/all"
 weight = 2
 
 # footer menu right
