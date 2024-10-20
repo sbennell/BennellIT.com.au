@@ -122,30 +122,43 @@ name = "Network Management"
 url = "/services/network-management"
 weight = 3
 
-# footer menu middle
-[[footer_middle]]
+[[footer_left]]
 name = "Web Hosting"
 url = "/services/web-hosting"
+weight = 4
+
+[[footer_left]]
+name = "Email Hosting"
+url = "/services/server-management"
+weight = 5
+
+[[footer_left]]
+name = "Microsoft 365"
+url = "/services/microsoft-365"
+weight = 6
+
+[[footer_left]]
+name = "Gps Tracking"
+url = "/services/network-management"
+weight = 7
+
+# footer menu middle
+[[footer_middle]]
+name = "Gps Login"
+url = "https://gps.bennellit.com.au/"
 weight = 1
 
 [[footer_middle]]
-name = "Email Hosting"
-url = "/services/server-management"
+name = "Downloads"
+url = "/downloads"
 weight = 2
 
 [[footer_middle]]
-name = "Microsoft 365"
-url = "/services/microsoft-365"
-weight = 3
-
-[[footer_middle]]
-name = "Gps Tracking"
-url = "/services/network-management"
-weight = 4
-
+name = "Services Stutus"
+url = "/"
+weight = 2
 
 # footer menu right
-
 [[footer_right]]
 name = "Contact"
 url = "/contact"
