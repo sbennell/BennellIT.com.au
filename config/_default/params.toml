@@ -18,8 +18,6 @@ theme_default = "system" # available options [light/dark/system]
 mainSections = ["blog"]
 # contact form action
 contact_form_action = "https://airform.io/stewart@bennellit.com.au" # contact form works with [https://airform.io/] or [https://formspree.io]
-# demo form action
-demo_form_action = "#!" # demo form works with [https://airform.io/] or [https://formspree.io]
 # career form action
 career_form_action = "#"
 # google tag manager, see https://developers.google.com/tag-manager/
