@@ -7,6 +7,6 @@ weight = 1
 [en.params]
 ########### footer content ##########
 footer_menu_left = "Services"
-footer_menu_middle = "Services"
+footer_menu_middle = "Links"
 footer_menu_right = "Support"
 footer_content = "Bennell IT provides exceptional IT services, from computer repairs to web and email hosting and GPS tracking for your vehicles."
