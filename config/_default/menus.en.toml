@@ -134,14 +134,15 @@ url = "/services/server-management"
 weight = 2
 
 [[footer_middle]]
-name = "Gps Tracking"
-url = "/services/network-management"
+name = "Microsoft 365"
+url = "/services/microsoft-365"
 weight = 3
 
 [[footer_middle]]
-name = "Microsoft 365"
-url = "/services/microsoft-365"
+name = "Gps Tracking"
+url = "/services/network-management"
 weight = 4
+
 
 # footer menu right
 

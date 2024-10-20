@@ -17,35 +17,15 @@ banner:
     link: "contact/"
 
 # services section
-services_list:
+services:
+  enable: true
+  services_list:
   - name: "Network Setup & Configuration"
     info: "Professional network setup and configuration services to ensure smooth operations and scalability."
     services:
       - "Router, switch, and firewall setup"
       - "Network configuration and optimization"
       - "Security protocols and VLAN setup"
-    button:
-      enable: true
-      label: "Learn More"
-      link: "contact/"
-
-  - name: "24/7 Network Monitoring"
-    info: "Continuous monitoring to detect and resolve network issues in real-time, ensuring maximum uptime."
-    services:
-      - "Real-time network performance monitoring"
-      - "Proactive troubleshooting"
-      - "Alerts and detailed reports"
-    button:
-      enable: true
-      label: "Learn More"
-      link: "contact/"
-
-  - name: "Network Security"
-    info: "Comprehensive security management to protect your network from external threats."
-    services:
-      - "Firewall configuration and management"
-      - "Intrusion detection and prevention"
-      - "Regular security audits"
     button:
       enable: true
       label: "Learn More"
@@ -68,6 +48,28 @@ services_list:
       - "Network traffic analysis"
       - "Bandwidth management"
       - "Latency reduction strategies"
+    button:
+      enable: true
+      label: "Learn More"
+      link: "contact/"
+
+  - name: "Network Monitoring"
+    info: "Continuous monitoring to detect and resolve network issues in real-time, ensuring maximum uptime."
+    services:
+      - "Real-time network performance monitoring"
+      - "Proactive troubleshooting"
+      - "Alerts and detailed reports"
+    button:
+      enable: true
+      label: "Learn More"
+      link: "contact/"
+
+  - name: "Network Security"
+    info: "Comprehensive security management to protect your network from external threats."
+    services:
+      - "Firewall configuration and management"
+      - "Intrusion detection and prevention"
+      - "Regular security audits"
     button:
       enable: true
       label: "Learn More"
