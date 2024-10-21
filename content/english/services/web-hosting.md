@@ -12,7 +12,7 @@ pricing:
   pricing_list_item:
   - name: "500MB Plan"
     currency: "$"
-    price: "150"
+    price: "159"
     price_per: "Yearly"
     info: "Best for Small Individuals"
     recommended: false
@@ -27,7 +27,7 @@ pricing:
 
   - name: "1GB Plan"
     currency: "$"
-    price: "153"
+    price: "162"
     price_per: "Yearly"
     info: "Ideal for Growing Users"
     recommended: false
@@ -42,7 +42,7 @@ pricing:
 
   - name: "2GB Plan"
     currency: "$"
-    price: "159"
+    price: "168"
     price_per: "Yearly"
     info: "For Medium-Sized Websites"
     recommended: true
@@ -57,7 +57,7 @@ pricing:
 
   - name: "5GB Plan"
     currency: "$"
-    price: "201"
+    price: "210"
     price_per: "Yearly"
     info: "Perfect for High-Traffic Websites"
     recommended: false
@@ -72,7 +72,7 @@ pricing:
 
   - name: "10GB Plan"
     currency: "$"
-    price: "231"
+    price: "240"
     price_per: "Yearly"
     info: "Best for Large Businesses"
     recommended: false
@@ -87,7 +87,7 @@ pricing:
 
   - name: "15GB Plan"
     currency: "$"
-    price: "297"
+    price: "270"
     price_per: "Yearly"
     info: "For Enterprises with High Demands"
     recommended: false
