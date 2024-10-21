@@ -67,11 +67,6 @@ url = "/services/gps-tracking"
 weight = 7
 
 [[main]]
-weight = 15
-name = "Pages"
-hasChildren = true
-
-[[main]]
 parent = "Pages"
 name = "Contact"
 url = "/contact"
