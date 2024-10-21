@@ -12,7 +12,7 @@ pricing:
   pricing_list_item:
   - name: "Microsoft 365\n\nBusiness Basic"
     currency: "$"
-    price: "11.00"
+    price: "12.00"
     price_per: "Monthly"
     #info: "Ideal for businesses needing essential productivity services."
     recommended: false
@@ -27,7 +27,7 @@ pricing:
 
   - name: "Microsoft 365\n\nBusiness Standard"
     currency: "$"
-    price: "21.00"
+    price: "22.00"
     price_per: "Monthly"
     #info: "Includes desktop versions of Office apps with all the essentials."
     recommended: false
@@ -41,7 +41,7 @@ pricing:
 
   - name: "Microsoft 365\n\nBusiness Premium"
     currency: "$"
-    price: "35.50"
+    price: "36.50"
     price_per: "Monthly"
     #info: "Comprehensive plan with advanced security and management features."
     recommended: true
@@ -56,7 +56,7 @@ pricing:
 
   - name: "Exchange Online\n\n(Plan 1)"
     currency: "$"
-    price: "8.00"
+    price: "9.00"
     price_per: "Monthly"
     #info: "Basic email and calendar services for your organization."
     recommended: false
@@ -70,7 +70,7 @@ pricing:
 
   - name: "Exchange Online\n\n(Plan 2)"
     currency: "$"
-    price: "13.25"
+    price: "14.25"
     price_per: "Monthly"
     #info: "Advanced email services with additional storage."
     recommended: false
