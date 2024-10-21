@@ -120,7 +120,7 @@ faq:
 call_to_action:
   enable: true
   title: "Ready to Boost Your Productivity?"
-  image: "images/microsoft365.png"
+  image: "images/logos/microsoft365.png"
   content: "Choose the right Microsoft 365 plan for your business and enjoy enhanced productivity, collaboration, and security. Contact us today to get started!"
   button:
     enable: true
