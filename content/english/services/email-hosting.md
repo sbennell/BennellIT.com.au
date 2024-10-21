@@ -12,7 +12,7 @@ pricing:
   pricing_list_item:
   - name: "500MB Email Plan"
     currency: "$"
-    price: "33"
+    price: "39"
     price_per: "Yearly"
     info: ""
     recommended: false
@@ -26,7 +26,7 @@ pricing:
 
   - name: "1GB Email Plan"
     currency: "$"
-    price: "48"
+    price: "42"
     price_per: "Yearly"
     info: ""
     recommended: false
@@ -40,7 +40,7 @@ pricing:
 
   - name: "5GB Email Plan"
     currency: "$"
-    price: "48"
+    price: "54"
     price_per: "Yearly"
     info: ""
     recommended: false
@@ -54,7 +54,7 @@ pricing:
 
   - name: "10GB Email Plan"
     currency: "$"
-    price: "60"
+    price: "66"
     price_per: "Yearly"
     info: ""
     recommended: false
@@ -68,7 +68,7 @@ pricing:
 
   - name: "30GB Email Plan"
     currency: "$"
-    price: "72"
+    price: "78"
     price_per: "Yearly"
     info: ""
     recommended: false
@@ -82,7 +82,7 @@ pricing:
 
   - name: "50GB Email Plan"
     currency: "$"
-    price: "96"
+    price: "102"
     price_per: "Yearly"
     info: ""
     recommended: false
