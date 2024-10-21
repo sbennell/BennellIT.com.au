@@ -78,24 +78,6 @@ url = "/contact"
 weight = 10
 
 [[main]]
-parent = "Pages"
-name = "FAQ"
-url = "/faq"
-weight = 16
-
-[[main]]
-parent = "Pages"
-name = "Privacy Policy"
-url = "/privacy-policy"
-weight = 20
-
-[[main]]
-parent = "Pages"
-name = "Terms & Conditions"
-url = "/terms-conditions"
-weight = 24
-
-[[main]]
 name = "Downloads"
 url = "/downloads"
 weight = 28
@@ -163,13 +145,3 @@ weight = 2
 name = "Contact"
 url = "/contact"
 weight = 1
-
-[[footer_right]]
-name = "Privacy Policy"
-url = "/privacy-policy"
-weight = 2
-
-[[footer_right]]
-name = "Terms & Conditions"
-url = "/terms-conditions"
-weight = 3
