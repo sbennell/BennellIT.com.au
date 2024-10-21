@@ -25,37 +25,6 @@
 </section>
 {{end}}
 
-{{ if .Params.services.enable }}
-<section class="section my-0 my-lg-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <div class="row gy-5 align-items-lg-center justify-content-center">
-          {{ range $index, $item := .Params.services.services_list }} <!-- Use $index and $item -->
-          <div class="col-lg-4 col-md-6 px-4 px-lg-0">
-            <div class="card shadow bg-white {{ if $item.recommended }}recommended{{ end }} {{ if gt $index 2 }}mt-lg-5{{ end }}">
-              <div class="card-body text-center py-5">
-                <h3 class="mb-4 h4">{{ $item.name | markdownify }}</h3>
-                <p class="lead mt-4">{{ $item.info | markdownify }}</p>
-                <ul class="list-unstyled mb-5">
-                  {{ range $item.services }}
-                  <li>{{ . | markdownify }}</li>
-                  {{ end }}
-                </ul>
-                {{ if $item.button.enable }}
-                <a href="{{ $item.button.link | relLangURL }}" title="{{ $item.button.label }}" class="btn {{ if $item.recommended }}btn-primary{{ else }}btn-outline-primary{{ end }}">{{ $item.button.label }}</a>
-                {{ end }}
-              </div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-
 {{ if .Params.pricing.enable }}
 <section class="section my-0 my-lg-5">
   <div class="container">
