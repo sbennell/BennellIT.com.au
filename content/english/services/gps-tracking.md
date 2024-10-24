@@ -48,7 +48,7 @@ product_info:
 
 ######################### intro_video #####################
 intro_video:
-  enable: true
+  enable: false
   title: "See Our GPS Tracking in Action"
   content: "Watch our video to learn how our GPS tracking solutions work and how they can benefit your business."
   video_url: "https://www.youtube.com/embed/example_video"
