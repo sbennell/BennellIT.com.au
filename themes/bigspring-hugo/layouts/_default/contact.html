@@ -9,8 +9,8 @@
         <div class="content">{{ .Content }}</div>
       </div>
       <div class="col-lg-6">
-        <form method="POST" class="row g-4" action="https://bennellit.com.au/PHP-contact/send-email.php" id="contact-form">
-          
+        <form method="POST" class="row g-4" action="{{site.Params.contact_form_action | safeURL}}/send-email.php" id="contact-form">
+
           <!-- Honeypot for bots -->
           <input name="utm" type="hidden" readonly="readonly" >
           <input name="return_to" type="hidden" readonly="readonly" >
@@ -18,7 +18,7 @@
           <input name="address" hidden>
 
           <!-- Name -->
-          <div class="col-lg-6">
+          <div class="col-lg-12">
             <label class="mb-1" for="name">{{ i18n "fname"}} <span class="text-danger">*</span></label>
             <input class="form-control shadow-none" type="text" name="name" placeholder="{{ i18n `name`}}" required>
           </div>
@@ -89,11 +89,11 @@
   </div>
 </section>
 
-<script src="https://bennellit.com.au/PHP-contact/js/user-agent.min.js"></script>
+<script src="{{site.Params.contact_form_action | safeURL}}/js/user-agent.min.js"></script>
 <script>
   window.addEventListener('DOMContentLoaded', () => {
-    validate_contact("https://bennellit.com.au/PHP-contact/user-agent.php");
-  });
+    validate_contact("{{site.Params.contact_form_action | safeURL}}/user-agent.php");
+    });
 </script>
 
 {{ end }}
