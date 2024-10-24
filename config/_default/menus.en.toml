@@ -106,7 +106,7 @@ weight = 4
 
 [[footer_left]]
 name = "Email Hosting"
-url = "/services/server-management"
+url = "/services/email-hosting"
 weight = 5
 
 [[footer_left]]
@@ -116,7 +116,7 @@ weight = 6
 
 [[footer_left]]
 name = "Gps Tracking"
-url = "/services/network-management"
+url = "/services/gps-tracking"
 weight = 7
 
 # footer menu middle
