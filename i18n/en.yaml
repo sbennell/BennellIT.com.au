@@ -54,7 +54,13 @@
   
 - id: fname
   translation: First Name
-  
+
+- id: name
+  translation: Full Name
+
+- id: contact
+  translation: Contact Number
+
 - id: full_name
   translation: Full Name
   
