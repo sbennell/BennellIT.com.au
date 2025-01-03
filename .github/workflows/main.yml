@@ -65,5 +65,5 @@ jobs:
           password: ${{ secrets.FTP_password }}
           protocol: ftps
           local-dir: ./public/
-          server-dir: "public_html/test/"
+          server-dir: "public_html/"
           git-ftp-args: --insecure --all
