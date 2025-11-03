@@ -1,0 +1,18 @@
+{
+  "media": {
+    "root": "assets/images",
+    "public": "assets"
+  },
+  "content": {
+    "root": "content"
+  },
+  "code": {
+    "root": "themes/bigspring-hugo/layouts"
+  },
+  "themeConfig": [
+    "hugo.toml",
+    "config"
+  ],
+  "arrangement": [],
+  "showCommitModal": false
+}
